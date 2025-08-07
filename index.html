@@ -1,0 +1,709 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amaan404.EXE</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&family=Orbitron:wght@400;700;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Loading Screen -->
+    <div class="loading-screen" id="loadingScreen">
+        <div class="loading-content">
+            <div class="cyberpunk-logo">
+                <h1>AMAAN 404 .EXE LOADING...</h1>
+                <div class="loading-bar">
+                    <div class="loading-progress"></div>
+                </div>
+                <p class="loading-text">ACCESSING NEURAL NETWORK...</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Background Effects -->
+    <div class="bg-effects">
+        <div class="city-grid"></div>
+        <div class="hologram-particles"></div>
+        <div class="neon-streaks"></div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="nav-bar" id="navbar">
+        <div class="nav-brand">
+            <span class="brand-text">AMAAN.EXE</span>
+            <div class="brand-glitch"></div>
+        </div>
+        <ul class="nav-menu" id="navMenu">
+            <li><a href="#home" data-section="home">HOME</a></li>
+            <li><a href="#about" data-section="about">PROFILE</a></li>
+            <li><a href="#skills" data-section="skills">CYBERWARE</a></li>
+            <li><a href="#projects" data-section="projects">OPERATIONS</a></li>
+            <li><a href="#contact" data-section="contact">CONNECT</a></li>
+        </ul>
+        <div class="nav-toggle" id="navToggle">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <div class="system-status">
+            <span class="status-indicator online"></span>
+            <span class="status-text">ONLINE</span>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <!-- Hero Section -->
+        <section id="home" class="hero-section">
+            <div class="hero-container">
+                <div class="hero-image-bg">
+                    <img src="Amaan.png" alt="Amaan Hero" class="hero-bg-photo" />
+                </div>
+                <div class="hero-right">
+                    <div class="hero-content">
+                        <h1 class="hero-title">
+                            <span class="title-line">Hey, I am Amaan</span>
+                            <span class="title-main">
+                                <span class="typewriter-text"></span>
+                                <span class="typewriter-placeholder" aria-hidden="true" style="visibility:hidden;position:absolute;white-space:pre;">DEEP LEARNING ENGINEER</span>
+                            </span>
+                            <span class="title-sub">Visionary Technomancer</span>
+                        </h1>
+                        <div class="hero-description">
+                            <p>I’m a 4th-year Computer Science & Engineering student, fusing code and creativity at the edge of tomorrow. My toolkit: My parent's hopes and dreams plus my development skills. I thrive on building intelligent systems—whether it’s crafting neural networks from scratch, exploring the frontiers of Generative AI and LLMs, or engineering smarter ways to retrieve information. I move fast, learn even faster, and bring relentless energy to every project. Ready to channel my skills, curiosity, and work ethic into the next wave of AI innovation.</p>
+                        </div>
+                        <div class="hero-buttons">
+                            <button class="btn btn-primary" onclick="scrollToSection('about')">
+                                <span class="btn-text">ACCESS PROFILE</span>
+                                <span class="btn-glow"></span>
+                            </button>
+                            <button class="btn btn-secondary" onclick="scrollToSection('projects')">
+                                <span class="btn-text">VIEW OPERATIONS</span>
+                                <span class="btn-glow"></span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about-section">
+            <div class="section-container">
+                <div class="section-header">
+                    <h2 class="section-title">PERSONAL PROFILE</h2>
+                    <div class="section-subtitle">Neural Interface Data</div>
+                </div>
+                <div class="about-content">
+                    <div class="about-card">
+                        <div class="card-header">
+                            <h3>IDENTITY MATRIX</h3>
+                            <div class="card-status">VERIFIED</div>
+                        </div>
+                        <div class="card-body">
+                            <div class="profile-data">
+                                <div class="data-row">
+                                    <span class="data-label">FULL NAME:</span>
+                                    <span class="data-value">MD AMAANULLAH FAROOQUEE</span>
+                                </div>
+                                <div class="data-row">
+                                    <span class="data-label">ACADEMIC LEVEL:</span>
+                                    <span class="data-value">4th Year Computer Science & Engineering</span>
+                                </div>
+                                <div class="data-row">
+                                    <span class="data-label">SPECIALIZATION:</span>
+                                    <span class="data-value">AI/ML, Deep Learning, Python</span>
+                                </div>
+                                <div class="data-row">
+                                    <span class="data-label">LOCATION:</span>
+                                    <span class="data-value">Kolkata, India</span>
+                                </div>
+                                <div class="data-row">
+                                    <span class="data-label">CONTACT:</span>
+                                    <span class="data-value">+91-7079522878</span>
+                                </div>
+                                <div class="data-row">
+                                    <span class="data-label">EMAIL:</span>
+                                    <span class="data-value">farooqueeamaan@gmail.com</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="about-card">
+                        <div class="card-header">
+                            <h3>EDUCATION MATRIX</h3>
+                            <div class="card-status">ACTIVE</div>
+                        </div>
+                        <div class="card-body">
+                            <div class="profile-data">
+                                <div class="data-row">
+                                    <span class="data-label">UNIVERSITY:</span>
+                                    <span class="data-value">Amity University, Kolkata</span>
+                                </div>
+                                <div class="data-row">
+                                    <span class="data-label">DEGREE:</span>
+                                    <span class="data-value">Bachelor of Technology - Computer Science & Engineering</span>
+                                </div>
+                                <div class="data-row">
+                                    <span class="data-label">DURATION:</span>
+                                    <span class="data-value">2022 - 2026 (Expected)</span>
+                                </div>
+                                <div class="data-row">
+                                    <span class="data-label">RELEVANT COURSEWORK:</span>
+                                    <span class="data-value">Data Structures and Algorithms, Artificial Intelligence, Machine Learning, Deep Learning Principles, Computer Vision, Database Management Systems</span>
+                                </div>
+                                <div class="data-row">
+                                    <span class="data-label">CLASS XII:</span>
+                                    <span class="data-value">DAV Public School Bihar Sharif, Bihar (2021) - 86%</span>
+                                </div>
+                                <div class="data-row">
+                                    <span class="data-label">CLASS X:</span>
+                                    <span class="data-value">RPS School, Bihar Sharif, Bihar (2019) - 85%</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="skills-section">
+            <div class="section-container">
+                <div class="section-header">
+                    <h2 class="section-title">CYBERWARE IMPLANTS</h2>
+                    <div class="section-subtitle">Technical Enhancement Modules</div>
+                </div>
+                <div class="skills-grid">
+                    <div class="skill-category">
+                        <h3 class="category-title">PROGRAMMING LANGUAGES</h3>
+                        <div class="skill-items">
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span class="skill-name">Python (Proficient)</span>
+                                    <span class="skill-level">EXPERT</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" style="--progress: 95%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span class="skill-name">C#</span>
+                                    <span class="skill-level">ADVANCED</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" style="--progress: 85%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span class="skill-name">C/C++</span>
+                                    <span class="skill-level">INTERMEDIATE</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" style="--progress: 75%"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill-category">
+                        <h3 class="category-title">AI/ML CONCEPTS</h3>
+                        <div class="skill-items">
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span class="skill-name">Deep Learning</span>
+                                    <span class="skill-level">ADVANCED</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" style="--progress: 90%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span class="skill-name">Neural Networks</span>
+                                    <span class="skill-level">ADVANCED</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" style="--progress: 88%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span class="skill-name">Machine Learning</span>
+                                    <span class="skill-level">ADVANCED</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" style="--progress: 85%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span class="skill-name">Computer Vision</span>
+                                    <span class="skill-level">INTERMEDIATE</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" style="--progress: 80%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span class="skill-name">NLP Basics & LLM Concepts</span>
+                                    <span class="skill-level">INTERMEDIATE</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" style="--progress: 75%"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill-category">
+                        <h3 class="category-title">LIBRARIES & FRAMEWORKS</h3>
+                        <div class="skill-items">
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span class="skill-name">NumPy</span>
+                                    <span class="skill-level">EXPERT</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" style="--progress: 92%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span class="skill-name">Pandas</span>
+                                    <span class="skill-level">ADVANCED</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" style="--progress: 88%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span class="skill-name">OpenCV</span>
+                                    <span class="skill-level">ADVANCED</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" style="--progress: 85%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span class="skill-name">FAISS (Vector DB)</span>
+                                    <span class="skill-level">INTERMEDIATE</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" style="--progress: 78%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span class="skill-name">PyAutoGUI</span>
+                                    <span class="skill-level">INTERMEDIATE</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" style="--progress: 75%"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill-category">
+                        <h3 class="category-title">DATABASES & TOOLS</h3>
+                        <div class="skill-items">
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span class="skill-name">Vector Databases (FAISS)</span>
+                                    <span class="skill-level">INTERMEDIATE</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" style="--progress: 80%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span class="skill-name">SQL (Basic)</span>
+                                    <span class="skill-level">INTERMEDIATE</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" style="--progress: 70%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span class="skill-name">Git</span>
+                                    <span class="skill-level">ADVANCED</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" style="--progress: 85%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span class="skill-name">VS Code</span>
+                                    <span class="skill-level">EXPERT</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" style="--progress: 95%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span class="skill-name">Unity</span>
+                                    <span class="skill-level">INTERMEDIATE</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" style="--progress: 75%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span class="skill-name">Adobe Suite (Photoshop, Illustrator)</span>
+                                    <span class="skill-level">ADVANCED</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" style="--progress: 85%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span class="skill-name">Figma</span>
+                                    <span class="skill-level">INTERMEDIATE</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" style="--progress: 75%"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill-category">
+                        <h3 class="category-title">SOFT SKILLS</h3>
+                        <div class="skill-items">
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span class="skill-name">Leadership</span>
+                                    <span class="skill-level">ADVANCED</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" style="--progress: 88%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span class="skill-name">Seeker Mindset</span>
+                                    <span class="skill-level">EXPERT</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" style="--progress: 95%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span class="skill-name">Passionate & Ambitious</span>
+                                    <span class="skill-level">EXPERT</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" style="--progress: 95%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span class="skill-name">Work Ethic</span>
+                                    <span class="skill-level">EXPERT</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" style="--progress: 92%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span class="skill-name">Problem-Solving</span>
+                                    <span class="skill-level">ADVANCED</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" style="--progress: 88%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span class="skill-name">Collaboration</span>
+                                    <span class="skill-level">ADVANCED</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" style="--progress: 85%"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="projects-section">
+            <div class="section-container">
+                <div class="section-header">
+                    <h2 class="section-title">ACTIVE OPERATIONS</h2>
+                    <div class="section-subtitle">Mission Archive Database</div>
+                </div>
+                <div class="projects-grid">
+                    <div class="project-card">
+                        <div class="project-header">
+                            <div class="project-status development">ONGOING</div>
+                            <h3 class="project-title">Semantic Document Search using Vector Database</h3>
+                        </div>
+                        <div class="project-image">
+                            <div class="project-overlay">
+                                <div class="overlay-content">
+                                    <span class="tech-stack">Python • FAISS • RAG Concepts</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-description">
+                            <p>Developed a Python app for semantic search in documents using FAISS vector database for efficient embedding storage/retrieval. Enhanced information retrieval accuracy beyond keywords, gaining practical experience with a core RAG component.</p>
+                        </div>
+                        <div class="project-actions">
+                            <a href="#" class="project-link" target="_blank">
+                                <span>VIEW CODE</span>
+                            </a>
+                            <a href="#" class="project-link secondary" target="_blank">
+                                <span>DEMO</span>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="project-card">
+                        <div class="project-header">
+                            <div class="project-status operational">COMPLETED</div>
+                            <h3 class="project-title">Neural Network from Scratch</h3>
+                        </div>
+                        <div class="project-image">
+                            <div class="project-overlay">
+                                <div class="overlay-content">
+                                    <span class="tech-stack">Python • NumPy • MNIST</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-description">
+                            <p>Built a neural network using only Python/NumPy for MNIST digit recognition. Implemented backpropagation and gradient descent from first principles, demonstrating core algorithmic understanding.</p>
+                        </div>
+                        <div class="project-actions">
+                            <a href="#" class="project-link" target="_blank">
+                                <span>VIEW CODE</span>
+                            </a>
+                            <a href="#" class="project-link secondary" target="_blank">
+                                <span>DEMO</span>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="project-card">
+                        <div class="project-header">
+                            <div class="project-status operational">COMPLETED</div>
+                            <h3 class="project-title">Hand-Tracked Mouse Control System</h3>
+                        </div>
+                        <div class="project-image">
+                            <div class="project-overlay">
+                                <div class="overlay-content">
+                                    <span class="tech-stack">Python • PyAutoGUI • OpenCV</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-description">
+                            <p>Created a real-time CV application using OpenCV to control the mouse via hand movements and gestures. Demonstrates practical application of computer vision and automation.</p>
+                        </div>
+                        <div class="project-actions">
+                            <a href="#" class="project-link" target="_blank">
+                                <span>VIEW CODE</span>
+                            </a>
+                            <a href="#" class="project-link secondary" target="_blank">
+                                <span>DEMO</span>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="project-card">
+                        <div class="project-header">
+                            <div class="project-status operational">COMPLETED</div>
+                            <h3 class="project-title">AR Menu Preview Application</h3>
+                        </div>
+                        <div class="project-image">
+                            <div class="project-overlay">
+                                <div class="overlay-content">
+                                    <span class="tech-stack">Unity • C# • AR • Vuforia</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-description">
+                            <p>Developed an Augmented Reality mobile app using Unity/Vuforia to visualize 3D food models interactively. Combines AR technology with practical real-world applications.</p>
+                        </div>
+                        <div class="project-actions">
+                            <a href="#" class="project-link" target="_blank">
+                                <span>VIEW LINK</span>
+                            </a>
+                            <a href="#" class="project-link secondary" target="_blank">
+                                <span>DEMO</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Experience Section -->
+        <section id="experience" class="experience-section">
+            <div class="section-container">
+                <div class="section-header">
+                    <h2 class="section-title">MISSION LOGS</h2>
+                    <div class="section-subtitle">Professional Experience Database</div>
+                </div>
+                <div class="experience-content">
+                    <div class="experience-card">
+                        <div class="card-header">
+                            <h3>Graphic Designer (Freelance/Part-time)</h3>
+                            <div class="card-status">COMPLETED</div>
+                        </div>
+                        <div class="card-body">
+                            <div class="experience-details">
+                                <div class="experience-company">Marketing in Mars & Oriole Entertainment</div>
+                                <div class="experience-location">Remote/Kolkata</div>
+                                <div class="experience-duration">Dec 2023 - Feb 2024</div>
+                                <div class="experience-description">
+                                    <ul>
+                                        <li>Created compelling visual assets for digital marketing campaigns and live events.</li>
+                                        <li>Collaborated effectively with team members and stakeholders to understand requirements and incorporate feedback.</li>
+                                        <li>Managed multiple design tasks concurrently, delivering high-quality work under tight deadlines, demonstrating ownership & work ethic.</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Awards Section -->
+        <section id="awards" class="awards-section">
+            <div class="section-container">
+                <div class="section-header">
+                    <h2 class="section-title">HONORS & ACHIEVEMENTS</h2>
+                    <div class="section-subtitle">Recognition Matrix</div>
+                </div>
+                <div class="awards-content">
+                    <div class="awards-card">
+                        <div class="card-header">
+                            <h3>Hackathon Winner (1st Place)</h3>
+                            <div class="card-status">ACHIEVED</div>
+                        </div>
+                        <div class="card-body">
+                            <div class="award-details">
+                                <div class="award-event">University Hackathon 2023</div>
+                                <div class="award-description">Secured first place in university-level hackathon competition.</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="awards-card">
+                        <div class="card-header">
+                            <h3>Game Jam Finalist</h3>
+                            <div class="card-status">ACHIEVED</div>
+                        </div>
+                        <div class="card-body">
+                            <div class="award-details">
+                                <div class="award-event">48-Hour Game Development Challenge</div>
+                                <div class="award-description">Developed a functional game prototype within a 48-hour competitive time constraint.</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact-section">
+            <div class="section-container">
+                <div class="section-header">
+                    <h2 class="section-title">NEURAL LINK</h2>
+                    <div class="section-subtitle">Establish Connection Protocol</div>
+                </div>
+                <div class="contact-content">
+                    <div class="contact-card">
+                        <div class="card-header">
+                            <h3>CONTACT MATRIX</h3>
+                            <div class="card-status">ACTIVE</div>
+                        </div>
+                        <div class="card-body">
+                            <div class="contact-item">
+                                <div class="contact-icon">📧</div>
+                                <div class="contact-details">
+                                    <span class="contact-label">EMAIL</span>
+                                    <span class="contact-value">farooqueeamaan@gmail.com</span>
+                                </div>
+                            </div>
+                            <div class="contact-item">
+                                <div class="contact-icon">📱</div>
+                                <div class="contact-details">
+                                    <span class="contact-label">PHONE</span>
+                                    <span class="contact-value">+91-7079522878</span>
+                                </div>
+                            </div>
+                            <div class="contact-item">
+                                <div class="contact-icon">📍</div>
+                                <div class="contact-details">
+                                    <span class="contact-label">LOCATION</span>
+                                    <span class="contact-value">Kolkata, India</span>
+                                </div>
+                            </div>
+                            <div class="contact-item">
+                                <div class="contact-icon">🔗</div>
+                                <div class="contact-details">
+                                    <span class="contact-label">LINKEDIN</span>
+                                    <span class="contact-value">linkedin.com/in/amaanfarooquee</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="contact-card">
+                        <div class="card-header">
+                            <h3>ADDITIONAL DATA</h3>
+                            <div class="card-status">ACTIVE</div>
+                        </div>
+                        <div class="card-body">
+                            <div class="additional-info">
+                                <div class="info-item">
+                                    <span class="info-label">LANGUAGES:</span>
+                                    <span class="info-value">English (Fluent), Hindi (Native)</span>
+                                </div>
+                                <div class="info-item">
+                                    <span class="info-label">INTERESTS:</span>
+                                    <span class="info-value">Exploring AI advancements, Chess, Movies, Stand-up Comedy</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-left">
+                <p>&copy; 2077 Amaan's Neural Network. All rights reserved.</p>
+                <p>Powered by Cybernetic Enhancement Technology</p>
+            </div>
+            <div class="footer-right">
+                <div class="system-info">
+                    <span class="system-time" id="systemTime"></span>
+                    <span class="system-status">
+                        <span class="status-indicator online"></span>
+                        Night City Terminal Online
+                    </span>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

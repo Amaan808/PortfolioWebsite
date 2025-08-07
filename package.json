@@ -1,0 +1,25 @@
+{
+  "name": "amaan-portfolio",
+  "version": "1.0.0",
+  "description": "Cyberpunk 2077 themed portfolio website for Amaan - AI/ML Engineer",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx serve .",
+    "dev": "npx live-server .",
+    "build": "echo 'Static site - no build needed'",
+    "deploy": "vercel --prod"
+  },
+  "keywords": [
+    "portfolio",
+    "cyberpunk",
+    "ai",
+    "machine-learning",
+    "deep-learning",
+    "computer-science"
+  ],
+  "author": "Amaan",
+  "license": "MIT",
+  "devDependencies": {
+    "live-server": "^1.2.2"
+  }
+}
